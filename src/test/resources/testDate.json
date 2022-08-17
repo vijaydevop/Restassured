@@ -1,0 +1,29 @@
+{
+  "createRequest": {
+    "name": "vijay",
+    "address": "Rest",
+    "marks": 45
+  },
+  "updateRequest": {
+    "name": "vijayv",
+    "address": "Banglore",
+    "marks": 55
+  },
+  "multipleRequest": [
+    {
+      "name": "haseem",
+      "address": "Banglore",
+      "marks": 150
+    },
+    {
+      "name": "pavan",
+      "address": "Banglore",
+      "marks": 100
+    },
+    {
+      "name": "venkat",
+      "address": "Banglore",
+      "marks": 100
+    }
+  ]
+}

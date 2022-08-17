@@ -1,0 +1,728 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "create a user",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 207696800,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user details",
+            "match": {
+              "location": "steps.MyStepdefs.userDetails()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-17T06:03:49.174Z",
+        "line": 5,
+        "name": "verify if user resources can be added",
+        "description": "",
+        "id": "usercontroller-feature;verify-if-user-resources-can-be-added",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1242827200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "creating a user",
+            "match": {
+              "location": "steps.MyStepdefs.creatingAUser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3059600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user must be created",
+            "match": {
+              "location": "steps.MyStepdefs.userMustBeCreated()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "create a user",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user details",
+            "match": {
+              "location": "steps.MyStepdefs.userDetails()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-17T06:03:50.661Z",
+        "line": 10,
+        "name": "Verify existing user marks is updated",
+        "description": "",
+        "id": "usercontroller-feature;verify-existing-user-marks-is-updated",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 155085200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "updating the marks",
+            "match": {
+              "location": "steps.MyStepdefs.updatingTheMarks()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 780181000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user marks is updated",
+            "match": {
+              "location": "steps.MyStepdefs.userMarksIsUpdated()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "create a user",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user details",
+            "match": {
+              "location": "steps.MyStepdefs.userDetails()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-17T06:03:51.607Z",
+        "line": 14,
+        "name": "Verify the user is not created with no name",
+        "description": "",
+        "id": "usercontroller-feature;verify-the-user-is-not-created-with-no-name",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 119188900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "creating a user with no name in body field",
+            "match": {
+              "location": "steps.MyStepdefs.creatingAUserWithNoNameInBodyField()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19106500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Name is required error message thrown",
+            "match": {
+              "location": "steps.MyStepdefs.nameIsRequiredErrorMessageThrown()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "create a user",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user details",
+            "match": {
+              "location": "steps.MyStepdefs.userDetails()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-17T06:03:51.761Z",
+        "line": 19,
+        "name": "Verify the user is deleted",
+        "description": "",
+        "id": "usercontroller-feature;verify-the-user-is-deleted",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 153549100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "delete a user",
+            "match": {
+              "location": "steps.MyStepdefs.deleteAUser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 206284100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user is deleted",
+            "match": {
+              "location": "steps.MyStepdefs.userIsDeleted()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "create a user",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user details",
+            "match": {
+              "location": "steps.MyStepdefs.userDetails()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-17T06:03:52.134Z",
+        "line": 23,
+        "name": "Verify the users list is displayed",
+        "description": "",
+        "id": "usercontroller-feature;verify-the-users-list-is-displayed",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 142295200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "creating a user",
+            "match": {
+              "location": "steps.MyStepdefs.creatingAUser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 170996900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "users list must be displayed",
+            "match": {
+              "location": "steps.MyStepdefs.usersListMustBeDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "create a user",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1149800,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user details",
+            "match": {
+              "location": "steps.MyStepdefs.userDetails()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-17T06:03:52.458Z",
+        "line": 27,
+        "name": "Verify the user without giving address",
+        "description": "",
+        "id": "usercontroller-feature;verify-the-user-without-giving-address",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 115451800,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "creating a user without address",
+            "match": {
+              "location": "steps.MyStepdefs.creatingAUserWithoutAddress()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16179800,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Address is required error message thrown",
+            "match": {
+              "location": "steps.MyStepdefs.addressIsRequiredErrorMessageThrown()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "create a user",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user details",
+            "match": {
+              "location": "steps.MyStepdefs.userDetails()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-17T06:03:52.604Z",
+        "line": 32,
+        "name": "Verify the user is able to create with no marks",
+        "description": "",
+        "id": "usercontroller-feature;verify-the-user-is-able-to-create-with-no-marks",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 119229200,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "creating a user with no marks",
+            "match": {
+              "location": "steps.MyStepdefs.creatingAUserWithNoMarks()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user can be created with zero marks",
+            "match": {
+              "location": "steps.MyStepdefs.userCanBeCreatedWithZeroMarks()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "create a user",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user details",
+            "match": {
+              "location": "steps.MyStepdefs.userDetails()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-17T06:03:52.732Z",
+        "line": 36,
+        "name": "Verify the user name is updated",
+        "description": "",
+        "id": "usercontroller-feature;verify-the-user-name-is-updated",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 121694100,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Updating a user name",
+            "match": {
+              "location": "steps.MyStepdefs.updatingAUserName()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 130477400,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User name must be updated",
+            "match": {
+              "location": "steps.MyStepdefs.userNameMustBeUpdated()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "create a user",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user details",
+            "match": {
+              "location": "steps.MyStepdefs.userDetails()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-17T06:03:52.991Z",
+        "line": 41,
+        "name": "verify that the particular user in the list is displayed",
+        "description": "",
+        "id": "usercontroller-feature;verify-that-the-particular-user-in-the-list-is-displayed",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 116902600,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "creating a user",
+            "match": {
+              "location": "steps.MyStepdefs.creatingAUser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 115323700,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "user with particular id must be displayed",
+            "match": {
+              "location": "steps.MyStepdefs.userWithParticularIdMustBeDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "create a user",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user details",
+            "match": {
+              "location": "steps.MyStepdefs.userDetails()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-17T06:03:53.233Z",
+        "line": 45,
+        "name": "verify that the invalid id user is displayed",
+        "description": "",
+        "id": "usercontroller-feature;verify-that-the-invalid-id-user-is-displayed",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 137502700,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "creating a user",
+            "match": {
+              "location": "steps.MyStepdefs.creatingAUser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 124641400,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Blank page must be displayed",
+            "match": {
+              "location": "steps.MyStepdefs.blankPageMustBeDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "create a user",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user details",
+            "match": {
+              "location": "steps.MyStepdefs.userDetails()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-17T06:03:53.502Z",
+        "line": 49,
+        "name": "Verify the user address is updated",
+        "description": "",
+        "id": "usercontroller-feature;verify-the-user-address-is-updated",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 145162200,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "Creating a user with address",
+            "match": {
+              "location": "steps.MyStepdefs.creatingAUserWithAddress()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 178736100,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "user address must be updated",
+            "match": {
+              "location": "steps.MyStepdefs.userAddressMustBeUpdated()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "create a user",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user details",
+            "match": {
+              "location": "steps.MyStepdefs.userDetails()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-17T06:03:53.841Z",
+        "line": 53,
+        "name": "Verify the invalid id is deleted",
+        "description": "",
+        "id": "usercontroller-feature;verify-the-invalid-id-is-deleted",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 121290300,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "delete a user",
+            "match": {
+              "location": "steps.MyStepdefs.deleteAUser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 141192100,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "internal server error is displayed",
+            "match": {
+              "location": "steps.MyStepdefs.internalServerErrorIsDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "create a user",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user details",
+            "match": {
+              "location": "steps.MyStepdefs.userDetails()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-17T06:03:54.111Z",
+        "line": 57,
+        "name": "Verify if user multiple resources can be added",
+        "description": "",
+        "id": "usercontroller-feature;verify-if-user-multiple-resources-can-be-added",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "creating a multiple users",
+            "match": {
+              "location": "steps.MyStepdefs.creatingAMultipleUsers()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 201923600,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "multiple users are created",
+            "match": {
+              "location": "steps.MyStepdefs.multipleUsersAreCreated()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "UserController feature",
+    "description": "",
+    "id": "usercontroller-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/UserController.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "marks": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "address",
+    "marks"
+  ],
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "marks": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "address",
+    "marks"
+  ]
+}
+
+
